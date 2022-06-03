@@ -35,6 +35,7 @@ func main() {
 	http.HandleFunc("/actualizar", Actualizar)
 
 	log.Println("Servidor corriendo...")
+	log.Println("Servidor corriendo...")
 	http.ListenAndServe(":8080", nil)
 }
 
